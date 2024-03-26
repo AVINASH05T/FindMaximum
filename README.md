@@ -1,4 +1,8 @@
-# Find the maximum of a list of numbers
+## EXPERIMENT: 6
+## Find the maximum of a list of numbers
+## NAME: AVINASH T
+## REG NO: 212223230026
+## DEPT:ARTIFICIAL INTELLIGENCE AND DATA SCIENCE
 ## Aim:
 To write a program to find the maximum of a list of numbers.
 ## Equipment’s required:
@@ -12,28 +16,46 @@ To write a program to find the maximum of a list of numbers.
 
 i)	# To find the maximum of marks using the list method sort.
 ```Python
-
+def max_marks(marks):
+    marks.sort()
+    large=marks[-1]
+    return large
 
 
 ```
 
 ii)	# To find the maximum marks using the list method max().
 ```Python
-
+def max_marks(marks):
+    max_marks=max(marks)
+    return max_marks
 
 
 ```
 
 iii) # To find the maximum marks without using builtin functions.
 ```Python
-
+def max_marks(marks):
+    max= marks[0]
+    for i in marks[1:]:
+        if i > max:
+            max = i
+    return max
 
 
 ```
+![image](https://github.com/AVINASH05T/FindMaximum/assets/151514286/d9b6cbda-10e1-4732-b36a-45aab28113ee)
 
+![image](https://github.com/AVINASH05T/FindMaximum/assets/151514286/08540aa6-1e36-4ea6-b8fc-e81d14577a82)
 
+![image](https://github.com/AVINASH05T/FindMaximum/assets/151514286/857f0900-1e7a-4b29-8482-f06404cb4ffb)
 
 ## Output:
+![image](https://github.com/AVINASH05T/FindMaximum/assets/151514286/e7ccf7f5-4988-438b-b64e-cca28bfb88d9)
+
+![image](https://github.com/AVINASH05T/FindMaximum/assets/151514286/661310a9-ec15-404a-bec2-b288b0a1a06b)
+
+![image](https://github.com/AVINASH05T/FindMaximum/assets/151514286/8c5ae5ee-a462-4432-8c9f-5d346b4264bc)
 
 ## Result:
 Thus the program to find the maximum of given numbers from the list is written and verified using python programming.
