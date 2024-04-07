@@ -13,7 +13,6 @@ To write a program to find the maximum of a list of numbers.
 2.	Use the sort() function or max() function or use the for loop to find the maximum mark.
 3.	Return the maximum value
 ## Program:
-
 i)	# To find the maximum of marks using the list method sort.
 ```Python
 #Program Developed by: AVINASH T
@@ -33,7 +32,6 @@ def max_marks(marks):
     return max_marks
 ```
 ![image](https://github.com/AVINASH05T/FindMaximum/assets/151514286/08540aa6-1e36-4ea6-b8fc-e81d14577a82)
-
 iii) # To find the maximum marks without using builtin functions.
 ```Python
 #Program Developed by: AVINASH T
@@ -46,7 +44,6 @@ def max_marks(marks):
     return max
 ```
 ![image](https://github.com/AVINASH05T/FindMaximum/assets/151514286/857f0900-1e7a-4b29-8482-f06404cb4ffb)
-
 ## Output:
 i)	# To find the maximum of marks using the list method sort.
 ![image](https://github.com/AVINASH05T/FindMaximum/assets/151514286/e7ccf7f5-4988-438b-b64e-cca28bfb88d9)
