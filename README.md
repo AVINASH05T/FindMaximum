@@ -22,10 +22,8 @@ def max_marks(marks):
     marks.sort()
     large=marks[-1]
     return large
-
-
 ```
-
+![image](https://github.com/AVINASH05T/FindMaximum/assets/151514286/d9b6cbda-10e1-4732-b36a-45aab28113ee)
 ii)	# To find the maximum marks using the list method max().
 ```Python
 #Program Developed by: AVINASH T
@@ -33,9 +31,8 @@ ii)	# To find the maximum marks using the list method max().
 def max_marks(marks):
     max_marks=max(marks)
     return max_marks
-
-
 ```
+![image](https://github.com/AVINASH05T/FindMaximum/assets/151514286/08540aa6-1e36-4ea6-b8fc-e81d14577a82)
 
 iii) # To find the maximum marks without using builtin functions.
 ```Python
@@ -48,11 +45,6 @@ def max_marks(marks):
             max = i
     return max
 ```
-i)	# To find the maximum of marks using the list method sort.
-![image](https://github.com/AVINASH05T/FindMaximum/assets/151514286/d9b6cbda-10e1-4732-b36a-45aab28113ee)
-ii)	# To find the maximum marks using the list method max().
-![image](https://github.com/AVINASH05T/FindMaximum/assets/151514286/08540aa6-1e36-4ea6-b8fc-e81d14577a82)
-iii) # To find the maximum marks without using builtin functions.
 ![image](https://github.com/AVINASH05T/FindMaximum/assets/151514286/857f0900-1e7a-4b29-8482-f06404cb4ffb)
 
 ## Output:
